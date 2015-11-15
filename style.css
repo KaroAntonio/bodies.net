@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    margin: 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.banner {
+    font-size: 40px;
+    border: 3px solid black;
+    font-family: "Times New Roman", Times, sans-serif;
+    
+}
+
+#background {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#splash-banner {
+    position: absolute;
+    top: 35vh;
+    text-align: center;
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    /*background: black;
+    color: white;*/
+    /*display: none;*/
+}
+
+#lost-body{
+    /*color: white;*/
+    position: absolute;
+    display: none;
+    top: 20vh;
+    left: 10vw;
+    max-width: 50vw;
+    cursor: pointer;
+}
+
+#the-human-body{
+    /*color: white;*/
+    position: absolute;
+    display: none;
+    top: 40vh;
+    max-width: 50vw;
+    left: 10vw;
+    cursor: pointer;
+}
+
+#body-scan {
+    display: none;
+    top: 25vh;
+    position: absolute;
+    width: 346px;
+    height: 346px;
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    background-image: url("assets/body_scan.gif");
+    background-position: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.square {
+    cursor: pointer;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 50vh;
+    right: 10vw;
+    text-align: center;
+    font-size: 80px;
+    background-image: url("assets/body_scan.gif");
+    background-position: center;
+}
+
+.square:hover {
+    border: 3px solid black;
+}
