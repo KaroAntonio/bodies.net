@@ -17,6 +17,17 @@ $.getJSON( "assets/poems.json", function( data ) {
     poem_titles = Object.keys(poems);
  });
 
+$('#info_button').click(function(){
+	    console.log($('#info').css('visibility'))
+	    if ($('#info').css('visibility') == 'hidden') {
+			        $('#info_button').html('-i')
+	        $('#info').css('visibility', 'visible')
+	    } else  {
+			        $('#info_button').html('+i')
+	        $('#info').css('visibility', 'hidden')
+	    }
+})
+
 $('.clickable').click(function() {
     scene_index++ 
     if (scene_index == 1) {

@@ -87,3 +87,22 @@ body {
 .square:hover {
     border: 3px solid black;
 }
+
+#info_button {
+    text-align: right;
+    width: 2vw;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 2vh;
+    padding-left: 94vw;
+}
+
+#info {
+    visibility: hidden;
+    padding-top: 2vh;
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+}
